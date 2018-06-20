@@ -39,7 +39,7 @@
 #define GREEN_LED               13                    // leg green
 #define BUZ_PIN                  1                    // не распаян
 
-//#define USE_IRRECV
+#define USE_IRRECV
   #ifdef USE_IRRECV
     #define MIN_UNKNOWN_SIZE        24
     #define CAPTURE_BUFFER_SIZE     25
